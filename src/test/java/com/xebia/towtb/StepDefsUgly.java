@@ -50,4 +50,19 @@ public class StepDefsUgly {
     public void the_customer_should_receive_the_price_defined_by(DataTable fields) throws Throwable {
 
     }
+
+    @Given("^a system with (\\d+) opened transactions$")
+    public void a_system_with_opened_transactions(int arg1) throws Throwable {
+
+    }
+
+    @When("^the system restarts$")
+    public void the_system_restarts() throws Throwable {
+
+    }
+
+    @Then("^no transactions should be opened$")
+    public void no_transactions_should_be_opened() throws Throwable {
+        
+    }
 }
