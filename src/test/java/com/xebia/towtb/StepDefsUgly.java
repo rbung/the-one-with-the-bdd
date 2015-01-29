@@ -63,6 +63,21 @@ public class StepDefsUgly {
 
     @Then("^no transactions should be opened$")
     public void no_transactions_should_be_opened() throws Throwable {
+
+    }
+
+    @Given("^the system is configured to accept login \"([^\"]*)\" and password \"([^\"]*)\"$")
+    public void the_system_is_configured_to_accept_login_and_password(String arg1, String arg2) throws Throwable {
+
+    }
+
+    @When("^the customer connects to the system with login \"([^\"]*)\" and password \"([^\"]*)\"$")
+    public void the_customer_connects_to_the_system_with_login_and_password(String arg1, String arg2) throws Throwable {
+
+    }
+
+    @Then("^the system should accept the connection$")
+    public void the_system_should_accept_the_connection() throws Throwable {
         
     }
 }
